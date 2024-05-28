@@ -59,6 +59,33 @@ Close current pane
 cmd + space x
 ```
 
+Swap the pane with the previous one
+```
+cmd + space {
+```
+
+Show pane numbers 
+```
+cmd + space q
+```
+
+To move the current pane to pane 3 
+```
+:swap-pane -t 3
+```
+
+To move pane 2 to pane 3
+```
+:swap-pane -s 2 -t 3
+```
+
+Convert horizonal panes to vertical panes
+```
+cmd + space space
+```
+
+
+
 ## Misc
 Enter command mode
 ```
