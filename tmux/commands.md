@@ -25,10 +25,17 @@ kill/delete all sessions but the current
 tmux kill-session -a
 ```
 
-Attach to last session
+Attach to a session
 ```
-tmux a
+tmux a -t James
 ```
+
+Exit session without killing
+```
+cmd + space  d
+```
+
+
 
 ## Windows
 
@@ -90,6 +97,20 @@ cmd + space space
 Enter command mode
 ```
 cmd + space :
+```
+
+Switch session
+```
+cmd + space s
+```
+or
+```
+cmd + space t
+```
+
+Open popup
+```
+cmd + space e
 ```
 
 
