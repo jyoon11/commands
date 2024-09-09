@@ -18,3 +18,21 @@ Toggle case sensitive in Spectre
 ```
 ti
 ```
+
+Add double quote surrounding selected text
+```
+viwS"
+```
+
+Remove double quote surrounding text from current cursor
+```
+ds"
+```
+
+Remove double quote from selected block
+```
+:'<,'>s/"//gc
+```
+
+
+
